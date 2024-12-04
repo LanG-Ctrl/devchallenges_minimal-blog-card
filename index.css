@@ -1,0 +1,66 @@
+body {
+    font-family: 'Sora', sans-serif;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    margin-top: 150px;
+    height: 100vh;
+    background-color: #FAFAF9;
+}
+
+.card {
+    width: 23rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px #E5EAF0;
+}
+
+img {
+    width: calc(100% - 20px - 20px);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.tag {
+    font-size: 0.625rem;
+    color: #7C19EE;
+    background-color: #F2EAFD;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-left: 15px;
+    height: 8px;
+    width: 50px;
+    padding: 5px;
+    margin-top: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 1.125rem;
+    padding: 15px;
+    font-weight: 600;
+    color: #20293A;
+    margin-top: -5px;
+    margin-bottom: -20px;
+}
+
+p {
+    font-size: 0.875rem;
+    color: #394150;
+    padding: 0 20px 0 15px;
+    font-weight: 300;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    border-top: 0.5px solid #E5EAF0;
+    margin: 0;
+}
+
+.small-text {
+    font-size: 0.75rem;
+    padding: 20px 15px;
+    margin: 0;
+}
